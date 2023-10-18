@@ -3,21 +3,22 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Login from      './windows/Login';
 import Home from       './windows/Home';
-import Biometric from  './windows/Biometric';
-import { Pruebas } from './windows/Pruebas';
+import Welcome from    './windows/Welcome';
 
 const Stack = createNativeStackNavigator();
 
 export default function App() {
+
   return (
 
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="Logion">
+      <Stack.Navigator initialRouteName="Welcome">
+        <Stack.Screen name="Welcome"   component={Welcome} />
         <Stack.Screen name="Login"     component={Login} />
         <Stack.Screen name="Home"      component={Home} />
-        <Stack.Screen name="Biometric" component={Biometric} />
-        <Stack.Screen name="Pruebas"   component={Pruebas}/>
       </Stack.Navigator>
     </NavigationContainer>
   );
 }
+
+

@@ -22,7 +22,7 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.jorgerosas90.ProyectReact1"
+      "package": "com.jorgerosas90.ProyectReact1" , "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"

@@ -1,9 +1,11 @@
 import React from 'react';
 import { View, Button,Text } from 'react-native';
-import { styles } from '../styles/styles';
+import { styles } from '../styles/HomeStyle';
+
 
 
 export default function Home({ navigation }) {
+  
   const handleLogout = () => {
     navigation.navigate('Login');
   };

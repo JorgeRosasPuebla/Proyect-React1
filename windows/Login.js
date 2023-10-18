@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
-import { View, Text, TextInput, Button } from 'react-native';
-import { styles } from '../styles/styles';
-import Svg, { Circle } from 'react-native-svg';
+import React, { useState }               from 'react';
+import { View, Text, TextInput, Button}  from 'react-native';
+import Svg, { Circle }                   from 'react-native-svg';
+import { styles }                        from '../styles/LoginStyle';
 
 export default function Login({ navigation }) {
   const [username, setUsername] = useState('');
@@ -69,5 +69,4 @@ export default function Login({ navigation }) {
 
   );
 }
-
 
