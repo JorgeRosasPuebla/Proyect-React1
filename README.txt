@@ -2,7 +2,7 @@
 
 ## Description
 
-**Interface UI** is a mobile application under development that connects to an API created in Laravel to provide a [describe what it quotes, such as insurance, products, services, etc.].
+**Interface UI** is a mobile application under development that connects to an API created in Laravel to provide .
 
 ## Components
 
@@ -57,7 +57,7 @@ ESPAÑOL
 
 ## Descripción
 
-**Interfas UI** es una aplicación móvil en desarrollo que se conecta a una API creada en Laravel para proporcionar un cotizador de [describir lo que cotiza, por ejemplo, seguros, productos, servicios, etc.].
+**Interfas UI** es una aplicación móvil en desarrollo que se conecta a una API creada en Laravel para proporcionar un cotizador.
 
 ## Componentes
 
