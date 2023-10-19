@@ -37,12 +37,8 @@ export default function Welcome({navigation}) {
 
   return (
     <View style={styles.container}>
-      {/* Pantalla de bienvenida con el logotipo */}
-
       <Text>logo de la empresa</Text>
       <Image source={require('./huella.png')} style={styles.logo} />
-
-      {/* Ventana emergente (Modal) */}
       <Modal
         transparent={true}
         visible={showModal}

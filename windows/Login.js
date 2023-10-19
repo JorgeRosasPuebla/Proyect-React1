@@ -40,26 +40,22 @@ export default function Login({ navigation }) {
         placeholder="Usuario"
         value={username}
         onChangeText={setUsername}
-        
        />
         <TextInput
         style ={styles.input}
         placeholder="Contraseña"
         value={password}
         onChangeText={setPassword}
-        secureTextEntry
-        
+        secureTextEntry 
        />
        <View style={styles.innerModule}> 
          {/* modulo interno  */}
           <View > 
              <Button  title="Iniciar Sesión" onPress={handleLogin} />
            </View>
-
            <View >
              <Button  title="Iniciar Con Huella" onPress={bio} />
            </View>
-
         </View>
       </View>
       <View style={styles.thirdModule}>

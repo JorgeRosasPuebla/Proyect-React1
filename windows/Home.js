@@ -3,14 +3,11 @@ import { View, Button,Text } from 'react-native';
 import { styles } from '../styles/HomeStyle';
 
 
-
 export default function Home({ navigation }) {
   
   const handleLogout = () => {
     navigation.navigate('Login');
   };
-
-
   return (
     <View style={styles.containerHome}>
       <View style={styles.boxHome}>

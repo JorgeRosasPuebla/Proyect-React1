@@ -6,11 +6,8 @@ import Home from       './windows/Home';
 import Welcome from    './windows/Welcome';
 
 const Stack = createNativeStackNavigator();
-
 export default function App() {
-
   return (
-
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Welcome">
         <Stack.Screen name="Welcome"   component={Welcome} />

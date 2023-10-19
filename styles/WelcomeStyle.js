@@ -6,7 +6,7 @@ export const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: 'white', // Color de fondo de la pantalla de bienvenida
+    backgroundColor: 'white', 
   },
   logo: {
     width: 200,
@@ -25,7 +25,6 @@ export const styles = StyleSheet.create({
     borderRadius: 10,
     alignItems: 'center',
   },
-
   botoncontainer: {
     padding: 20,
   },
